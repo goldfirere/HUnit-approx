@@ -4,4 +4,4 @@
 Version 1.0
 -----------
 
-* Initial release.
+* Initial release: assertApproxEquals, and assertion and test combinators.
