@@ -1,4 +1,4 @@
-{- Tests for the HUnit-floating package
+{- Tests for the HUnit-approx package
 
    Copyright (c) 2014 Richard Eisenberg
    eir@cis.upenn.edu
@@ -11,7 +11,7 @@
 module Tests.Main where
 
 import Test.HUnit
-import Test.HUnit.Floating
+import Test.HUnit.Approx
 import Control.Monad
 import Control.Exception
 

@@ -1,7 +1,7 @@
-`HUnit-floating`
-================
+`HUnit-approx`
+==============
 
-[![Build Status](https://travis-ci.org/goldfirere/HUnit-floating.svg?branch=master)](https://travis-ci.org/goldfirere/HUnit-floating)
+[![Build Status](https://travis-ci.org/goldfirere/HUnit-approx.svg?branch=master)](https://travis-ci.org/goldfirere/HUnit-approx)
 
 This Haskell package provides operators to test approximate equality among
 numerical values, compatible with

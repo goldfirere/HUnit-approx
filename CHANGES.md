@@ -1,5 +1,5 @@
-`HUnit-floating` changelog
-==========================
+`HUnit-approx` changelog
+========================
 
 Version 1.0
 -----------

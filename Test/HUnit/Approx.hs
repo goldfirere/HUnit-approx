@@ -4,7 +4,7 @@
 #endif
 -----------------------------------------------------------------------------
 -- |
--- Module      :  Test.HUnit.Floating
+-- Module      :  Test.HUnit.Approx
 -- Copyright   :  (C) 2014 Richard Eisenberg
 -- License     :  BSD-style (see LICENSE)
 -- Maintainer  :  Richard Eisenberg (eir@cis.upenn.edu)
@@ -15,7 +15,7 @@
 -- floating-point values in HUnit tests.
 -----------------------------------------------------------------------------
 
-module Test.HUnit.Floating (
+module Test.HUnit.Approx (
   -- * Assertions
   assertApproxEqual, (@~?), (@?~),
 
