@@ -1,5 +1,7 @@
-{-# LANGUAGE ImplicitParams, Safe #-}
-
+{-# LANGUAGE ImplicitParams, CPP #-}
+#if __GLASGOW_HASKELL__ >= 707
+{-# LANGUAGE Safe #-}       -- Test.HUnit is not Safe in 7.6 and below
+#endif
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  Test.HUnit.Floating
