@@ -1,6 +1,6 @@
 {-# LANGUAGE ImplicitParams, CPP #-}
-#if __GLASGOW_HASKELL__ >= 707
-{-# LANGUAGE Safe #-}       -- Test.HUnit is not Safe in 7.6 and below
+#if __GLASGOW_HASKELL__ >= 709
+{-# LANGUAGE Safe #-}       -- Test.HUnit is not Safe in 7.8 and below
 #endif
 -----------------------------------------------------------------------------
 -- |
@@ -29,13 +29,13 @@ import Control.Monad  ( unless )
 -- | Asserts that the specified actual value is approximately equal to the
 -- expected value. The output message will contain the prefix, the expected
 -- value, the actual value, and the maximum margin of error.
---  
+--
 -- If the prefix is the empty string (i.e., @\"\"@), then the prefix is omitted
 -- and only the expected and actual values are output.
 assertApproxEqual :: (Ord a, Num a, Show a)
                   => String -- ^ The message prefix
                   -> a      -- ^ Maximum allowable margin of error
-                  -> a      -- ^ The expected value 
+                  -> a      -- ^ The expected value
                   -> a      -- ^ The actual value
                   -> Assertion
 assertApproxEqual preface epsilon expected actual =
@@ -79,7 +79,7 @@ infix 1 ~~?
 -- right-hand side).
 (~?~) :: (Ord a, Num a, Show a, ?epsilon :: a)
       => a     -- ^ The actual value
-      -> a     -- ^ The expected value 
+      -> a     -- ^ The expected value
       -> Test
 actual ~?~ expected = TestCase (actual @?~ expected)
 infix 1 ~?~
