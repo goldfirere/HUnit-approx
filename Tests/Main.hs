@@ -1,7 +1,7 @@
 {- Tests for the HUnit-approx package
 
    Copyright (c) 2014 Richard Eisenberg
-   eir@cis.upenn.edu
+   rae@cs.brynmawr.edu
 
 -}
 

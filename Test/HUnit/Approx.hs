@@ -7,7 +7,7 @@
 -- Module      :  Test.HUnit.Approx
 -- Copyright   :  (C) 2014 Richard Eisenberg
 -- License     :  BSD-style (see LICENSE)
--- Maintainer  :  Richard Eisenberg (eir@cis.upenn.edu)
+-- Maintainer  :  Richard Eisenberg (rae@cs.brynmawr.edu)
 -- Stability   :  intended to be stable
 -- Portability :  not portable (uses implicit parameters)
 --
