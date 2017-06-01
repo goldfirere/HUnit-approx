@@ -8,7 +8,7 @@
 {-# LANGUAGE ImplicitParams, ScopedTypeVariables #-}
 {-# OPTIONS_GHC -fno-warn-type-defaults #-}
 
-module Tests.Main where
+module Main where
 
 import Test.HUnit
 import Test.HUnit.Approx

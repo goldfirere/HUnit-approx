@@ -1,6 +1,11 @@
 `HUnit-approx` changelog
 ========================
 
+1.1.0.1
+-------
+
+* Remove `-main-is` for compatibility with cabal 2.0.
+
 1.1
 ---
 
