@@ -1,6 +1,11 @@
 `HUnit-approx` changelog
 ========================
 
+1.1.1
+-----
+
+* Use `HasCallStack` to provide better locations for errors.
+
 1.1.0.1
 -------
 
