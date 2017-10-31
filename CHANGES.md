@@ -1,6 +1,11 @@
 `HUnit-approx` changelog
 ========================
 
+1.1.1.1
+-------
+
+* Drop support for GHCs lower than 7.2.
+
 1.1.1
 -----
 
