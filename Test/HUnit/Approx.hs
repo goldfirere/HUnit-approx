@@ -1,4 +1,4 @@
-{-# LANGUAGE ImplicitParams, CPP #-}
+{-# LANGUAGE ImplicitParams, CPP, ConstraintKinds #-}
 #if __GLASGOW_HASKELL__ >= 709
 {-# LANGUAGE Safe #-}       -- Test.HUnit is not Safe in 7.8 and below
 #endif
